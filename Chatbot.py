@@ -1,6 +1,6 @@
 import streamlit as st
 import groq
-from playsound import playsound
+
 
 #VARIABLES
 height_contenedor = 500
@@ -78,4 +78,5 @@ def main():
                 st.rerun() 
 
 if __name__ == "__main__":
+
     main()
